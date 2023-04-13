@@ -1,5 +1,51 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+.input {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.formControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+}
+
+small {
+  position: absolute;
+}
+
+#startTime, #genre {
+  width: 300px;
+  height: 30px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: 500;
+}
+
+form {
+  /* background-color: #61dafb; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 20px;
+  /* align-items: center; */
 }
 
 .App-logo {
